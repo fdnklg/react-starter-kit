@@ -12,6 +12,7 @@
     "easy-peasy": "^3.3.0",
     "emotion-normalize": "^10.1.0",
     "idx": "^2.5.6",
+    "open": "^7.0.3",
     "prettier": "^1.19.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
