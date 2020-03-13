@@ -1,0 +1,43 @@
+{
+  "name": "p-portfolio-photos",
+  "version": "0.1.0",
+  "private": true,
+  "repository": {
+    "url": "git@github.com:fdnklg/react-starter-kit.git",
+    "type": "git"
+  },
+  "author": "fdnklg",
+  "dependencies": {
+    "babel-plugin-idx": "^2.4.0",
+    "easy-peasy": "^3.3.0",
+    "emotion-normalize": "^10.1.0",
+    "idx": "^2.5.6",
+    "prettier": "^1.19.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-markdown": "^4.3.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.0",
+    "theme-ui": "^0.3.1",
+    "unfetch": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start && echo '/* /index.html  200' | cat >build/_redirects",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
